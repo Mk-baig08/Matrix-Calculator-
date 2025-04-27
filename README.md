@@ -1,51 +1,47 @@
-🧮 Matrix Calculator
+# Matrix Calculator 📊
 
-A dynamic Matrix Calculator in C++ that can perform essential matrix operations:
-➕ Addition, ✖️ Multiplication, and 🔄 Transposition.
+A dynamic **Matrix Calculator** in C++ that can perform essential matrix operations:
+> ➕ Addition, ✖️ Multiplication, and 🐄 Transposition.
 
-🚀 Features
-✅ Input two matrices of any size.
+---
 
-✅ Dynamically allocate and deallocate memory.
+## ✨ Features
 
-✅ Perform:
+- ✅ Input two matrices of any size.
+- ✅ Dynamically allocate and deallocate memory.
+- ✅ Perform:
+  - Matrix Addition
+  - Matrix Multiplication (element-wise)
+  - Matrix Transposition
+- ✅ Clean and organized output display.
 
-1) Matrix Addition
+---
 
-2) Matrix Multiplication (element-wise)
+## 🛠️ How It Works
 
-3) Matrix Transposition
+1. **User Input:**
+   - Enter the number of rows and columns for both matrices.
+   - Fill in values for Matrix 1 and Matrix 2.
 
-✅ Clean and organized output display.
+2. **Matrix Operations:**
+   - **Addition** ➔ Element-wise sum of matrices.
+   - **Multiplication** ➔ Element-wise product (**not** traditional matrix multiplication).
+   - **Transpose** ➔ Rows and columns swapped for each matrix.
 
-🛠️ How It Works
-User Input:
+3. **Memory Management:**
+   - Dynamic allocation using `new`.
+   - Proper deallocation using `delete[]`.
 
-Enter the number of rows and columns for both matrices.
+---
 
-Fill in values for Matrix 1 and Matrix 2.
 
-Matrix Operations:
+## 🎯 Future Enhancements
+- 🔹 Add **file storage** to save records permanently
+- 🔹 Implement **a GUI version** using Qt or another framework
+- 🔹 Introduce **database integration** with MySQL
 
-Addition ➔ Element-wise sum of matrices.
+## 🤝 Contributing
+Pull requests and suggestions are welcome! Feel free to fork this repository and enhance the project.
 
-Multiplication ➔ Element-wise product (⚠️ Not true matrix multiplication).
-
-Transpose ➔ Rows and columns swapped for each matrix.
-
-Memory Management:
-
-Dynamic allocation with new.
-
-Proper deallocation with delete[].
-
-🎯 Future Improvements
-Implement true matrix multiplication.
-
-Add matrix subtraction and division.
-
-Handle non-square matrices more dynamically.
-
-📄 License
-This project is licensed under the Apache License 2.0.
-You are free to use, modify, and distribute this project with proper attribution.
+## 📜 License
+This project is licensed under the **Apache License 2.0**.
